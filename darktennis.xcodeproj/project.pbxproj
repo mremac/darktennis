@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF3B3AD61E2AAC3F004AD0D9 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3B3AD31E2AAC3E004AD0D9 /* sad.png */; };
+		DF3B3AD71E2AAC3F004AD0D9 /* joy.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3B3AD41E2AAC3F004AD0D9 /* joy.png */; };
+		DF3B3AD81E2AAC3F004AD0D9 /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3B3AD51E2AAC3F004AD0D9 /* paddle.png */; };
+		DF99FF7C1E2EE6DF00CDDEED /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = DF99FF7B1E2EE6DE00CDDEED /* user.png */; };
+		DF99FF7E1E2EECC100CDDEED /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF99FF7D1E2EECC100CDDEED /* MenuController.swift */; };
+		DF99FF801E2EED2300CDDEED /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF99FF7F1E2EED2300CDDEED /* GameController.swift */; };
+		DFEC488C1E1D8FFB004C6EEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEC488B1E1D8FFB004C6EEB /* AppDelegate.swift */; };
+		DFEC488E1E1D8FFB004C6EEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEC488D1E1D8FFB004C6EEB /* ViewController.swift */; };
+		DFEC48911E1D8FFC004C6EEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFEC488F1E1D8FFC004C6EEB /* Main.storyboard */; };
+		DFEC48931E1D8FFC004C6EEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFEC48921E1D8FFC004C6EEB /* Assets.xcassets */; };
+		DFEC48961E1D8FFC004C6EEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFEC48941E1D8FFC004C6EEB /* LaunchScreen.storyboard */; };
+		DFEC48A11E1D8FFD004C6EEB /* darktennisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEC48A01E1D8FFD004C6EEB /* darktennisTests.swift */; };
+		DFEC48AC1E1D8FFD004C6EEB /* darktennisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEC48AB1E1D8FFD004C6EEB /* darktennisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFEC489D1E1D8FFD004C6EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFEC48801E1D8FFB004C6EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFEC48871E1D8FFB004C6EEB;
+			remoteInfo = darktennis;
+		};
+		DFEC48A81E1D8FFD004C6EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFEC48801E1D8FFB004C6EEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFEC48871E1D8FFB004C6EEB;
+			remoteInfo = darktennis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF3B3AD31E2AAC3E004AD0D9 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
+		DF3B3AD41E2AAC3F004AD0D9 /* joy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joy.png; sourceTree = "<group>"; };
+		DF3B3AD51E2AAC3F004AD0D9 /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddle.png; sourceTree = "<group>"; };
+		DF99FF7B1E2EE6DE00CDDEED /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		DF99FF7D1E2EECC100CDDEED /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		DF99FF7F1E2EED2300CDDEED /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		DFEC48881E1D8FFB004C6EEB /* darktennis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = darktennis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFEC488B1E1D8FFB004C6EEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFEC488D1E1D8FFB004C6EEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFEC48901E1D8FFC004C6EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFEC48921E1D8FFC004C6EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFEC48951E1D8FFC004C6EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFEC48971E1D8FFC004C6EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFEC489C1E1D8FFD004C6EEB /* darktennisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = darktennisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFEC48A01E1D8FFD004C6EEB /* darktennisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darktennisTests.swift; sourceTree = "<group>"; };
+		DFEC48A21E1D8FFD004C6EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFEC48A71E1D8FFD004C6EEB /* darktennisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = darktennisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFEC48AB1E1D8FFD004C6EEB /* darktennisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darktennisUITests.swift; sourceTree = "<group>"; };
+		DFEC48AD1E1D8FFD004C6EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFEC48851E1D8FFB004C6EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEC48991E1D8FFD004C6EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEC48A41E1D8FFD004C6EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF3B3AD91E2AAC4E004AD0D9 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				DF3B3AD31E2AAC3E004AD0D9 /* sad.png */,
+				DF3B3AD41E2AAC3F004AD0D9 /* joy.png */,
+				DF99FF7B1E2EE6DE00CDDEED /* user.png */,
+				DF3B3AD51E2AAC3F004AD0D9 /* paddle.png */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		DFEC487F1E1D8FFB004C6EEB = {
+			isa = PBXGroup;
+			children = (
+				DFEC488A1E1D8FFB004C6EEB /* darktennis */,
+				DFEC489F1E1D8FFD004C6EEB /* darktennisTests */,
+				DFEC48AA1E1D8FFD004C6EEB /* darktennisUITests */,
+				DFEC48891E1D8FFB004C6EEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFEC48891E1D8FFB004C6EEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFEC48881E1D8FFB004C6EEB /* darktennis.app */,
+				DFEC489C1E1D8FFD004C6EEB /* darktennisTests.xctest */,
+				DFEC48A71E1D8FFD004C6EEB /* darktennisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFEC488A1E1D8FFB004C6EEB /* darktennis */ = {
+			isa = PBXGroup;
+			children = (
+				DF3B3AD91E2AAC4E004AD0D9 /* New Group */,
+				DFEC488B1E1D8FFB004C6EEB /* AppDelegate.swift */,
+				DFEC488D1E1D8FFB004C6EEB /* ViewController.swift */,
+				DF99FF7D1E2EECC100CDDEED /* MenuController.swift */,
+				DF99FF7F1E2EED2300CDDEED /* GameController.swift */,
+				DFEC488F1E1D8FFC004C6EEB /* Main.storyboard */,
+				DFEC48921E1D8FFC004C6EEB /* Assets.xcassets */,
+				DFEC48941E1D8FFC004C6EEB /* LaunchScreen.storyboard */,
+				DFEC48971E1D8FFC004C6EEB /* Info.plist */,
+			);
+			path = darktennis;
+			sourceTree = "<group>";
+		};
+		DFEC489F1E1D8FFD004C6EEB /* darktennisTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFEC48A01E1D8FFD004C6EEB /* darktennisTests.swift */,
+				DFEC48A21E1D8FFD004C6EEB /* Info.plist */,
+			);
+			path = darktennisTests;
+			sourceTree = "<group>";
+		};
+		DFEC48AA1E1D8FFD004C6EEB /* darktennisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFEC48AB1E1D8FFD004C6EEB /* darktennisUITests.swift */,
+				DFEC48AD1E1D8FFD004C6EEB /* Info.plist */,
+			);
+			path = darktennisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFEC48871E1D8FFB004C6EEB /* darktennis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFEC48B01E1D8FFD004C6EEB /* Build configuration list for PBXNativeTarget "darktennis" */;
+			buildPhases = (
+				DFEC48841E1D8FFB004C6EEB /* Sources */,
+				DFEC48851E1D8FFB004C6EEB /* Frameworks */,
+				DFEC48861E1D8FFB004C6EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = darktennis;
+			productName = darktennis;
+			productReference = DFEC48881E1D8FFB004C6EEB /* darktennis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFEC489B1E1D8FFD004C6EEB /* darktennisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFEC48B31E1D8FFD004C6EEB /* Build configuration list for PBXNativeTarget "darktennisTests" */;
+			buildPhases = (
+				DFEC48981E1D8FFD004C6EEB /* Sources */,
+				DFEC48991E1D8FFD004C6EEB /* Frameworks */,
+				DFEC489A1E1D8FFD004C6EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFEC489E1E1D8FFD004C6EEB /* PBXTargetDependency */,
+			);
+			name = darktennisTests;
+			productName = darktennisTests;
+			productReference = DFEC489C1E1D8FFD004C6EEB /* darktennisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFEC48A61E1D8FFD004C6EEB /* darktennisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFEC48B61E1D8FFD004C6EEB /* Build configuration list for PBXNativeTarget "darktennisUITests" */;
+			buildPhases = (
+				DFEC48A31E1D8FFD004C6EEB /* Sources */,
+				DFEC48A41E1D8FFD004C6EEB /* Frameworks */,
+				DFEC48A51E1D8FFD004C6EEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFEC48A91E1D8FFD004C6EEB /* PBXTargetDependency */,
+			);
+			name = darktennisUITests;
+			productName = darktennisUITests;
+			productReference = DFEC48A71E1D8FFD004C6EEB /* darktennisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFEC48801E1D8FFB004C6EEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wttech;
+				TargetAttributes = {
+					DFEC48871E1D8FFB004C6EEB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = S7HKE9UJVE;
+						LastSwiftMigration = 0820;
+					};
+					DFEC489B1E1D8FFD004C6EEB = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = DFEC48871E1D8FFB004C6EEB;
+					};
+					DFEC48A61E1D8FFD004C6EEB = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = DFEC48871E1D8FFB004C6EEB;
+					};
+				};
+			};
+			buildConfigurationList = DFEC48831E1D8FFB004C6EEB /* Build configuration list for PBXProject "darktennis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFEC487F1E1D8FFB004C6EEB;
+			productRefGroup = DFEC48891E1D8FFB004C6EEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFEC48871E1D8FFB004C6EEB /* darktennis */,
+				DFEC489B1E1D8FFD004C6EEB /* darktennisTests */,
+				DFEC48A61E1D8FFD004C6EEB /* darktennisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFEC48861E1D8FFB004C6EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3B3AD81E2AAC3F004AD0D9 /* paddle.png in Resources */,
+				DF3B3AD71E2AAC3F004AD0D9 /* joy.png in Resources */,
+				DFEC48961E1D8FFC004C6EEB /* LaunchScreen.storyboard in Resources */,
+				DFEC48931E1D8FFC004C6EEB /* Assets.xcassets in Resources */,
+				DF99FF7C1E2EE6DF00CDDEED /* user.png in Resources */,
+				DFEC48911E1D8FFC004C6EEB /* Main.storyboard in Resources */,
+				DF3B3AD61E2AAC3F004AD0D9 /* sad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEC489A1E1D8FFD004C6EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEC48A51E1D8FFD004C6EEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFEC48841E1D8FFB004C6EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEC488E1E1D8FFB004C6EEB /* ViewController.swift in Sources */,
+				DF99FF801E2EED2300CDDEED /* GameController.swift in Sources */,
+				DF99FF7E1E2EECC100CDDEED /* MenuController.swift in Sources */,
+				DFEC488C1E1D8FFB004C6EEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEC48981E1D8FFD004C6EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEC48A11E1D8FFD004C6EEB /* darktennisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFEC48A31E1D8FFD004C6EEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFEC48AC1E1D8FFD004C6EEB /* darktennisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFEC489E1E1D8FFD004C6EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFEC48871E1D8FFB004C6EEB /* darktennis */;
+			targetProxy = DFEC489D1E1D8FFD004C6EEB /* PBXContainerItemProxy */;
+		};
+		DFEC48A91E1D8FFD004C6EEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFEC48871E1D8FFB004C6EEB /* darktennis */;
+			targetProxy = DFEC48A81E1D8FFD004C6EEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFEC488F1E1D8FFC004C6EEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFEC48901E1D8FFC004C6EEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFEC48941E1D8FFC004C6EEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFEC48951E1D8FFC004C6EEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFEC48AE1E1D8FFD004C6EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFEC48AF1E1D8FFD004C6EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFEC48B11E1D8FFD004C6EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S7HKE9UJVE;
+				INFOPLIST_FILE = darktennis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eric.darktennis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFEC48B21E1D8FFD004C6EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S7HKE9UJVE;
+				INFOPLIST_FILE = darktennis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eric.darktennis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFEC48B41E1D8FFD004C6EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = darktennisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eric.darktennisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/darktennis.app/darktennis";
+			};
+			name = Debug;
+		};
+		DFEC48B51E1D8FFD004C6EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = darktennisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eric.darktennisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/darktennis.app/darktennis";
+			};
+			name = Release;
+		};
+		DFEC48B71E1D8FFD004C6EEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = darktennisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eric.darktennisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = darktennis;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DFEC48B81E1D8FFD004C6EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = darktennisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eric.darktennisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = darktennis;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFEC48831E1D8FFB004C6EEB /* Build configuration list for PBXProject "darktennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFEC48AE1E1D8FFD004C6EEB /* Debug */,
+				DFEC48AF1E1D8FFD004C6EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFEC48B01E1D8FFD004C6EEB /* Build configuration list for PBXNativeTarget "darktennis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFEC48B11E1D8FFD004C6EEB /* Debug */,
+				DFEC48B21E1D8FFD004C6EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFEC48B31E1D8FFD004C6EEB /* Build configuration list for PBXNativeTarget "darktennisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFEC48B41E1D8FFD004C6EEB /* Debug */,
+				DFEC48B51E1D8FFD004C6EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFEC48B61E1D8FFD004C6EEB /* Build configuration list for PBXNativeTarget "darktennisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFEC48B71E1D8FFD004C6EEB /* Debug */,
+				DFEC48B81E1D8FFD004C6EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFEC48801E1D8FFB004C6EEB /* Project object */;
+}
