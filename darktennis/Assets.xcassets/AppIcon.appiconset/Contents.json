@@ -3,49 +3,49 @@
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "wttech-app-40.png",
+      "filename" : "darktennis-icon-40.png",
       "scale" : "2x"
     },
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "wttech-app-60.png",
+      "filename" : "darktennis-icon-60.png",
       "scale" : "3x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "wttech-app-58.png",
+      "filename" : "darktennis-icon-58.png",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "wttech-app-87.png",
+      "filename" : "darktennis-icon-87.png",
       "scale" : "3x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "wttech-app-80.png",
+      "filename" : "darktennis-icon-80.png",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "wttech-app-120.png",
+      "filename" : "darktennis-icon-120.png",
       "scale" : "3x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "wttech-app-121.png",
+      "filename" : "darktennis-icon-121.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "wttech-app-180.png",
+      "filename" : "darktennis-icon-180.png",
       "scale" : "3x"
     }
   ],
