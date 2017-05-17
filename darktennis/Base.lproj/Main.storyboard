@@ -188,8 +188,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <button opaque="NO" contentMode="center" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dwb-OH-aZ9">
-                                <rect key="frame" x="0.0" y="243" width="414" height="180"/>
-                                <state key="normal" title="Loaded" image="light.png">
+                                <rect key="frame" x="0.0" y="243" width="414" height="149"/>
+                                <state key="normal" image="begin.png">
                                     <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -201,7 +201,9 @@
                         <constraints>
                             <constraint firstItem="xik-3c-lo2" firstAttribute="top" secondItem="qXi-mn-dY3" secondAttribute="bottom" id="0Oj-1b-aoU"/>
                             <constraint firstAttribute="trailing" secondItem="qXi-mn-dY3" secondAttribute="trailing" id="2jd-wU-Yez"/>
+                            <constraint firstAttribute="trailing" secondItem="Dwb-OH-aZ9" secondAttribute="trailing" id="BY4-db-NhN"/>
                             <constraint firstItem="qXi-mn-dY3" firstAttribute="leading" secondItem="Gve-ut-rhk" secondAttribute="leading" id="Fg4-HM-lw3"/>
+                            <constraint firstItem="Dwb-OH-aZ9" firstAttribute="leading" secondItem="Gve-ut-rhk" secondAttribute="leading" id="Sxy-v7-xe1"/>
                             <constraint firstAttribute="trailing" secondItem="Dwb-OH-aZ9" secondAttribute="trailing" id="WiM-uU-Mcp"/>
                             <constraint firstItem="qXi-mn-dY3" firstAttribute="top" secondItem="Gve-ut-rhk" secondAttribute="top" id="sHK-12-V9H"/>
                             <constraint firstItem="Dwb-OH-aZ9" firstAttribute="leading" secondItem="Gve-ut-rhk" secondAttribute="leading" id="vNP-ww-sFf"/>
@@ -447,8 +449,8 @@
     <resources>
         <image name="background-lines.png" width="1125" height="2001"/>
         <image name="ball-yellow.png" width="450" height="450"/>
+        <image name="begin.png" width="366" height="180"/>
         <image name="joy.png" width="162" height="135"/>
-        <image name="light.png" width="192" height="180"/>
         <image name="mpp.png" width="1035" height="426"/>
         <image name="paddle-red.png" width="780" height="1332"/>
         <image name="paddle.png" width="116" height="163"/>
