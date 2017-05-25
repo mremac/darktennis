@@ -24,6 +24,8 @@ class GameController: UIViewController {
     var side = 0
     var pos = 0
     var i = 40
+    var j = 20
+    var swap = true
     var vx = 0.0
     var vy = 2.0
     var vxabs = 0.0
@@ -34,6 +36,7 @@ class GameController: UIViewController {
     let motionManager = CMMotionManager()
     var timer: Timer!
     var END_TIME = 1.0
+    var playing = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,8 +52,11 @@ class GameController: UIViewController {
     func playAudio(sound: String) {
         var url = Bundle.main.url(forResource: "bounce-left", withExtension: "mp3")!
         var start = 0.01
-        if(sound == "bounce"){
+        if(sound == "bounce-left"){
             url = Bundle.main.url(forResource: "bounce-left", withExtension: "mp3")!
+            start = 0.5
+        } else if(sound == "bounce-right"){
+            url = Bundle.main.url(forResource: "bounce-right", withExtension: "mp3")!
             start = 0.5
         } else{
             url = Bundle.main.url(forResource: "swoosh", withExtension: "mp3")!
@@ -65,7 +71,8 @@ class GameController: UIViewController {
             wizSound.currentTime = Double(randomNum)*0.35 + start
             wizSound.play()
             
-            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(GameController.endSound), userInfo: nil, repeats: true)
+            playing = true
+            timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(GameController.endSound), userInfo: nil, repeats: true)
 
         } catch let error {
             print(error.localizedDescription)
@@ -75,6 +82,7 @@ class GameController: UIViewController {
     
     func endSound() {
         if (wizardAsShitSoundEffect?.currentTime)! >= END_TIME {
+            playing = false
             wizardAsShitSoundEffect?.stop()
             timer.invalidate()
         }
@@ -82,9 +90,10 @@ class GameController: UIViewController {
     
     func update() {
         vyabs = abs(vy)
-        if(i < -Int(screenSize.height)){
+        if(i < -Int(screenSize.height) && !playing){
             vy = vyabs
             playAudio(sound: "swoosh")
+            swap = true
         }
         print(i)
         i = i + 2*Int(vy)
@@ -95,7 +104,7 @@ class GameController: UIViewController {
             i = 0
         }
         
-        ball.frame = CGRect(x: screenSize.width/2, y: CGFloat(i), width: ball.frame.size.width, height: ball.frame.size.height)
+        ball.frame = CGRect(x: screenSize.width/2 + CGFloat(j), y: CGFloat(i), width: ball.frame.size.width, height: ball.frame.size.height)
         
 //        if let accelerometerData = motionManager.accelerometerData {
 //            print(accelerometerData)
@@ -114,15 +123,20 @@ class GameController: UIViewController {
             
             
             let xnum = gyroData!.rotationRate.x
-            
-            if(i > 0 - Int(screenSize.height)/2 - 40 && i < 0 - Int(screenSize.height)/2 + 40){
-                playAudio(sound: "bounce")
+            let fuckingwhatever = Int(50*(i + Int(screenSize.height))/Int(screenSize.height))
+            if(fuckingwhatever < 40 && fuckingwhatever > 33){
+                let str = (j == 20) ? "bounce-left" : "bounce-right"
+                playAudio(sound: str)
             }
             
             if xnum < -2.0{
                 if i > Int(screenSize.height)/2 - 50 && i < Int(screenSize.height)/2 + 50 && vy > 0{
                     updateScore()
                     vy = xnum
+                    if(swap){
+                        j = vy >= -3 ? 20 : -20
+                        swap = false
+                    }
                     playAudio(sound: "swoosh")
                     ball.frame = CGRect(x: screenSize.width/2, y: CGFloat(i), width: ball.frame.size.width, height: ball.frame.size.height)
                 }
@@ -138,6 +152,10 @@ class GameController: UIViewController {
                 if i > Int(screenSize.height)/2 - 50 && i < Int(screenSize.height)/2 + 50 && vy > 0{
                     updateScore()
                     vy = -1*xnum
+                    if(swap){
+                        j = vy >= 3 ? 20 : -20
+                        swap = false
+                    }
                     playAudio(sound: "swoosh")
                     ball.frame = CGRect(x: screenSize.width/2, y: CGFloat(i), width: ball.frame.size.width, height: ball.frame.size.height)
                 }
